@@ -106,7 +106,8 @@ function RestaurantDetail() {
                                         <p>&nbsp; &nbsp; &nbsp; {calcPrice}</p>
                                     </Col>
                                     <Col md={4} style={{ height: '50px' }}>
-                                        <button type="button" className="payBtn" onClick={() => payNowBtn()} >Pay Now</button>
+                                        {/* <button type="button"  onClick={() => payNowBtn()} >Pay Now</button> */}
+                                        <div> <a target="_blank" className="payBtn" href='https://pmny.in/krOabSA007DZ' > Pay Now </a> </div>
                                     </Col>
                                 </Row>
                             </Container>
